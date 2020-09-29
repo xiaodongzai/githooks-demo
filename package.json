@@ -20,6 +20,7 @@
   "homepage": "https://github.com/xiaodongzai/githooks-demo#readme",
   "devDependencies": {
     "cz-conventional-changelog": "^3.3.0",
+    "cz-emoji": "^1.2.2",
     "husky": "^4.3.0"
   },
   "dependencies": {
@@ -27,7 +28,7 @@
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+      "path": "cz-emoji"
     }
   }
 }
