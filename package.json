@@ -29,45 +29,6 @@
   "config": {
     "commitizen": {
       "path": "cz-emoji"
-    },
-    "cz-emoji": {
-      "types": [
-        {
-          "name": "feat \t\t🌟  A new feature",
-          "value": ":star2:"
-        },
-        {
-          "name": "fix \t\t🐞  A bug fix",
-          "value": ":beetle:"
-        },
-        {
-          "name": "style \t✏️  Doesn't affect the meaning of the code (white-space, semi-colons, etc)",
-          "value": ":pencil2:"
-        },
-        {
-          "name": "refactor \t🎨  Neither fixes a bug nor adds a feature",
-          "value": ":art:"
-        },
-        {
-          "name": "build \t🚀  Build system config or external dependencies ($compile)",
-          "value": ":rocket:"
-        },
-        {
-          "name": "docs \t\t📚  Documentation change",
-          "value": ":books:"
-        },
-        {
-          "name": "revert \t💊  Reverts a previous commit",
-          "value": ":pill:"
-        },
-        {
-          "emoji": "🎨",
-          "code": ":art:",
-          "description": "Improving structure / format of the code.",
-          "name": "style"
-        }
-      ],
-      "skipQuestions": ["scope", "issues", "body"]
     }
   }
 
