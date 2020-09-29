@@ -38,7 +38,8 @@
           "description": "A new feature",
           "name": "feature"
         }
-      ]
+      ],
+      "skipQuestions": ["scope", "issues"]
     }
   }
 
