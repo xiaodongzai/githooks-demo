@@ -19,9 +19,15 @@
   },
   "homepage": "https://github.com/xiaodongzai/githooks-demo#readme",
   "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
     "husky": "^4.3.0"
   },
   "dependencies": {
     "lint-staged": "^10.4.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
