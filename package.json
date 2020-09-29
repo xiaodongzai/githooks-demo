@@ -59,6 +59,12 @@
         {
           "name": "revert \t💊  Reverts a previous commit",
           "value": ":pill:"
+        },
+        {
+          "emoji": "🎨",
+          "code": ":art:",
+          "description": "Improving structure / format of the code.",
+          "name": "style"
         }
       ],
       "skipQuestions": ["scope", "issues", "body"]
