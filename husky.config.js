@@ -1,5 +1,5 @@
 module.exports = {
   hooks: {
-      'pre-commit': 'node test.js'
+      'pre-commit': 'lint-staged'
   }
 };
