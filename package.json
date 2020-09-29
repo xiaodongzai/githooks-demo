@@ -18,5 +18,8 @@
   "homepage": "https://github.com/xiaodongzai/githooks-demo#readme",
   "devDependencies": {
     "husky": "^4.3.0"
+  },
+  "dependencies": {
+    "lint-staged": "^10.4.0"
   }
 }
