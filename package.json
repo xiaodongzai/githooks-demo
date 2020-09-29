@@ -5,7 +5,8 @@
   "main": "husky.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "precommit": "cd server && node test.js"
+    "precommit-server": "cd server && node test.js",
+    "precommit-client": "cd client && node test.js"
   },
   "repository": {
     "type": "git",

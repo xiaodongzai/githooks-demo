@@ -3,12 +3,12 @@ module.exports = {
         if (files.length > 0){
             console.log(`${files.join('\n')}`);
         }
-        return 'cd client && node test.js';
+        return 'npm run precommit-client';
     },
     'server/*.js?(x)': (files) => {
         if (files.length > 0){
             console.log(`${files.join('\n')}`);
         }
-        return 'npm run precommit';
+        return 'npm run precommit-server';
     }
 };
