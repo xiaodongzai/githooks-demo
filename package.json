@@ -39,6 +39,10 @@
           "name": "feature"
         }
       ],
+      "questions": {
+        "type": "请选择本地改动的类型",
+        "subject": "输入改动"
+      },
       "skipQuestions": ["scope", "issues", "body"]
     }
   }
