@@ -45,16 +45,16 @@
           "value": ":pencil2:"
         },
         {
-          "name": "docs \t\t📚  Documentation change",
-          "value": ":books:"
-        },
-        {
           "name": "refactor \t🎨  Neither fixes a bug nor adds a feature",
           "value": ":art:"
         },
         {
           "name": "build \t🚀  Build system config or external dependencies ($compile)",
           "value": ":rocket:"
+        },
+        {
+          "name": "docs \t\t📚  Documentation change",
+          "value": ":books:"
         },
         {
           "name": "revert \t💊  Reverts a previous commit",
