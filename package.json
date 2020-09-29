@@ -28,7 +28,7 @@
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-emoji"
+      "path": "cz-emoji"
     },
     "cz-emoji": {
       "types": [
@@ -41,4 +41,5 @@
       ]
     }
   }
+
 }
