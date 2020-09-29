@@ -39,7 +39,7 @@
           "name": "feature"
         }
       ],
-      "skipQuestions": ["scope", "issues"]
+      "skipQuestions": ["scope", "issues", "body"]
     }
   }
 
