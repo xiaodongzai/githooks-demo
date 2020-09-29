@@ -25,5 +25,20 @@
   },
   "dependencies": {
     "lint-staged": "^10.4.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-emoji"
+    },
+    "cz-emoji": {
+      "types": [
+        {
+          "emoji": "🌟",
+          "code": ":star2:",
+          "description": "A new feature",
+          "name": "feature"
+        }
+      ]
+    }
   }
 }
