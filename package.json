@@ -45,10 +45,6 @@
           "name": "feature"
         }
       ],
-      "questions": {
-        "type": "select type",
-        "subject": "commit message"
-      },
       "skipQuestions": ["scope", "issues", "body"]
     }
   }
