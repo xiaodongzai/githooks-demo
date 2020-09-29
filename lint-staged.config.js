@@ -9,6 +9,6 @@ module.exports = {
         if (files.length > 0){
             console.log(`${files.join('\n')}`);
         }
-        return 'npm run precommit-server';
+        return ['cd server', 'node test.js'];
     }
 };
