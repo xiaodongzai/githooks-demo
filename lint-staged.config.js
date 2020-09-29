@@ -9,6 +9,6 @@ module.exports = {
         if (files.length > 0){
             console.log(`${files.join('\n')}`);
         }
-        return ['cd server', 'node test.js'];
+        return ['cd server','pwd', 'node test.js'];
     }
 };
