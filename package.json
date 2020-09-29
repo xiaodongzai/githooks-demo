@@ -37,11 +37,17 @@
           "code": ":star2:",
           "description": "A new feature",
           "name": "feature"
+        },
+        {
+          "emoji": "🌟",
+          "code": ":star2:",
+          "description": "A new feature",
+          "name": "feature"
         }
       ],
       "questions": {
-        "type": "请选择本地改动的类型",
-        "subject": "输入改动"
+        "type": "select type",
+        "subject": "commit message"
       },
       "skipQuestions": ["scope", "issues", "body"]
     }
