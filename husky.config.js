@@ -1,5 +1,6 @@
 module.exports = {
   hooks: {
-    'pre-commit': 'lint-staged --verbose'
+    'pre-commit': 'lint-staged --verbose',
+    'commit-msg': 'npm run changelog'
   }
 };
