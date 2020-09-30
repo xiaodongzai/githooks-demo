@@ -38,6 +38,50 @@
     },
     "cz-emoji": {
       "symbol": true,
+      "types": [
+        {
+          "emoji": "✨",
+          "code": ":sparkles:",
+          "description": "Introducing new features.",
+          "name": "feature"
+        },
+        {
+          "emoji": "🐛",
+          "code": ":bug:",
+          "description": "Fixing a bug.",
+          "name": "fix"
+        },
+        {
+          "emoji": "💄",
+          "code": ":lipstick:",
+          "description": "Updating the UI and style files.",
+          "name": "ui"
+        },
+        {
+          "emoji": "♻️",
+          "code": ":recycle:",
+          "description": " Refactoring code.",
+          "name": "refactoring"
+        },
+        {
+          "emoji": "📝",
+          "code": ":pencil:",
+          "description": "Writing docs.",
+          "name": "docs"
+        },
+        {
+          "emoji": "🎨",
+          "code": ":art:",
+          "description": "Improving structure / format of the code.",
+          "name": "style"
+        },
+        {
+          "emoji": "🎉",
+          "code": ":tada:",
+          "description": "Initial commit.",
+          "name": "init"
+        }
+      ],
       "skipQuestions": [
         "scope",
         "issues",
