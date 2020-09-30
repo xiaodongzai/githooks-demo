@@ -1,4 +1,2 @@
 console.log('cliet hooks');
-
-
-var s12 
+var s12
