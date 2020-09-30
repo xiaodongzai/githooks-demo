@@ -34,10 +34,46 @@
       "symbol": true,
       "types": [
         {
+          "emoji": "✨",
+          "code": ":sparkles:",
+          "description": "Introducing new features.",
+          "name": "feature"
+        },
+        {
+          "emoji": "🐛",
+          "code": ":bug:",
+          "description": "Fixing a bug.",
+          "name": "fix"
+        },
+        {
+          "emoji": "♻️",
+          "code": ":recycle:",
+          "description": " Refactoring code.",
+          "name": "refactoring"
+        },
+        {
           "emoji": "🎨",
           "code": ":art:",
           "description": "Improving structure / format of the code.",
           "name": "style"
+        },
+        {
+          "emoji": "🔥",
+          "code": ":fire:",
+          "description": "Removing code or files.",
+          "name": "prune"
+        },
+        {
+          "emoji": "📝",
+          "code": ":pencil:",
+          "description": "Writing docs.",
+          "name": "docs"
+        },
+        {
+          "emoji": "🎉",
+          "code": ":tada:",
+          "description": "Initial commit.",
+          "name": "init"
         }
       ],
       "skipQuestions": ["scope", "issues", "body"]
