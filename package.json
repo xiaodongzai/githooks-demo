@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "precommit-server": "cd server && node test.js",
     "precommit-client": "cd client && node test.js",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -w -s"
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -w -s -r"
   },
   "repository": {
     "type": "git",
