@@ -1,3 +1,7 @@
+## [1.1.4](https://github.com/xiaodongzai/githooks-demo/compare/v1.1.3...v1.1.4) (2020-09-30)
+
+
+
 ## [1.1.3](https://github.com/xiaodongzai/githooks-demo/compare/v1.1.2...v1.1.3) (2020-09-30)
 
 
