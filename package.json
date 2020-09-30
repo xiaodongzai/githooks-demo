@@ -52,22 +52,16 @@
           "name": "refactoring"
         },
         {
-          "emoji": "🎨",
-          "code": ":art:",
-          "description": "Improving structure / format of the code.",
-          "name": "style"
-        },
-        {
-          "emoji": "🔥",
-          "code": ":fire:",
-          "description": "Removing code or files.",
-          "name": "prune"
-        },
-        {
           "emoji": "📝",
           "code": ":pencil:",
           "description": "Writing docs.",
           "name": "docs"
+        },
+        {
+          "emoji": "🎨",
+          "code": ":art:",
+          "description": "Improving structure / format of the code.",
+          "name": "style"
         },
         {
           "emoji": "🎉",
