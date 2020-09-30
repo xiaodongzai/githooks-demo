@@ -1,13 +1,13 @@
 {
   "name": "githooks-demo",
-  "version": "1.1.2",
+  "version": "1.1.1",
   "description": "",
   "main": "husky.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "precommit-server": "cd server && node test.js",
     "precommit-client": "cd client && node test.js",
-    "version": "conventional-changelog -p angular -i CHANGELOG.md -w -s&& git add CHANGELOG.md"
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -w -s -r 0&& git add CHANGELOG.md"
   },
   "repository": {
     "type": "git",
