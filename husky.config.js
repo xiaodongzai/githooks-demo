@@ -1,6 +1,6 @@
 module.exports = {
   hooks: {
-      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true",
-      'pre-commit': 'lint-staged --verbose'
+    'pre-commit': 'lint-staged --verbose',
+    "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true",
   }
 };
