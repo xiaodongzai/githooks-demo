@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/xiaodongzai/githooks-demo#readme",
   "devDependencies": {
+    "commitlint-config-gitmoji": "^1.0.1",
     "cz-conventional-changelog": "^3.3.0",
     "cz-emoji": "^1.2.2",
     "husky": "^4.3.0"
@@ -70,8 +71,11 @@
           "name": "init"
         }
       ],
-      "skipQuestions": ["scope", "issues", "body"]
+      "skipQuestions": [
+        "scope",
+        "issues",
+        "body"
+      ]
     }
   }
-
 }
