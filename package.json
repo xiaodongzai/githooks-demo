@@ -82,8 +82,7 @@
       ],
       "skipQuestions": [
         "scope",
-        "issues",
-        "body"
+        "issues"
       ]
     }
   }
