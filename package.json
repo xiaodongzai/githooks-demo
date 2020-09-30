@@ -36,6 +36,15 @@
     "commitizen": {
       "path": "./node_modules/cz-emoji"
     },
+    "types": [
+      {
+        "name": "feat \t\t🌟  A new feature",
+        "value": ":star2:"
+      },
+      {
+        "name": "fix \t\t🐞  A bug fix",
+        "value": ":beetle:"
+      }],
     "cz-emoji": {
       "symbol": true,
       "skipQuestions": [
