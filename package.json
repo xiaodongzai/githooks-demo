@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "precommit-server": "cd server && node test.js",
     "precommit-client": "cd client && node test.js",
-    "version": "conventional-changelog -p angular -i CHANGELOG.md -w -s -r&& git add CHANGELOG.md"
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -w -s&& git add CHANGELOG.md"
   },
   "repository": {
     "type": "git",
@@ -15,7 +15,7 @@
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
+  "bugit ags": {
     "url": "https://github.com/xiaodongzai/githooks-demo/issues"
   },
   "homepage": "https://github.com/xiaodongzai/githooks-demo#readme",
